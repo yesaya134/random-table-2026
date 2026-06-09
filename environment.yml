@@ -13,7 +13,7 @@ dependencies:
   # remove/modify these as needed
   - numpy
   - pandas
-
+  - jupyter
   # keep this to install your Python package locally
   - pip
   - pip:
