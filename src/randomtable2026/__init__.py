@@ -12,3 +12,7 @@ def load_table(filepath = DEFAULT_TABLE):
 def categories(filepath = DEFAULT_TABLE):
     example_table = load_table(filepath)
     return example_table.columns.to_list()
+
+def select(column_name, path=DEFAULT_TABLE):
+    table = load_table(path)
+    return table[str(column_name)].dropna().sample().values[0]
