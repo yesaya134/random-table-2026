@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "randomtable2026"
 version = "0.1.0"
-description = "Brief description"
-authors = [{name = "Your Name"}]
+description = "Project for SWD3 to select a random thing from a table"
+authors = [{name = "Yesaya Tambunan"}]
 requires-python = ">=3.13"
 
 [tool.setuptools.packages.find]
