@@ -1,2 +1,3 @@
-# random-table-2026
-SWD3 course repository
+# Random Table Generator
+
+A python package to generate random features for TTRPGs
